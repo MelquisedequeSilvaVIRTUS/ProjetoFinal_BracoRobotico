@@ -94,6 +94,10 @@ https://github.com/user-attachments/assets/ed80046e-e39a-4f70-a09a-9c54a8750d74
 
 # Futuras Melhorias *(Opcional)*  
 
-- Leitor RFID
-- Sensor de Cor
-- Ajuste de Velocidade
+A implementação de novas funcionalidades pode expandir as capacidades e a eficiência do sistema. Algumas sugestões incluem:  
+
+- **Leitor RFID**:  
+  Incorporar um leitor RFID permite a identificação precisa de objetos por meio de etiquetas eletrônicas. Essa melhoria é ideal para sistemas que precisam diferenciar produtos ou rastrear itens específicos em tempo real.  
+
+- **Ajuste de Velocidade**:
+  Implementar a capacidade de ajustar a velocidade do braço robótico ou da esteira de transporte permite maior flexibilidade e otimização do desempenho. Isso possibilita adequar o sistema a diferentes tipos de objetos ou cenários de operação, melhorando a eficiência e a precisão.

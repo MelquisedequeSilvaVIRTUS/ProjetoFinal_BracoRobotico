@@ -1,9 +1,25 @@
 # ProjetoFinal_BracoRobotico
 Braço Robótico em Linha de Produção
 
+# Dispositivos Utilizados  
 
-# Princípio de Funcionamento  
-(Descreva brevemente o objetivo principal do dispositivo ou sistema, explicando como ele opera em termos gerais.)
+- *Placa Nucleo STM32F446RE*  
+  Utilizada como o microcontrolador principal para controlar o sistema e processar os dados.  
+
+- *Sensor de Distância Ultrassônico HC-SR04*  
+  Responsável por medir a distância de objetos para detectar sua posição.  
+
+- *Fonte de Alimentação Ajustável*  
+  Fornece energia necessária para alimentar todos os componentes do sistema.  
+
+- *Protoboards de 400 Pontos (x2)*  
+  Usados para conectar os componentes eletrônicos de forma prática e organizada durante a montagem.  
+
+- *Servomotores (x4)*  
+  Utilizados para realizar os movimentos do braço robótico.  
+
+- *Braço Robótico*  
+  Estrutura mecânica responsável por manipular e mover os objetos detectados pelo sistema.
 
 ---
 
@@ -103,4 +119,12 @@ A implementação de novas funcionalidades pode expandir as capacidades e a efic
   Implementar a capacidade de ajustar a velocidade do braço robótico ou da esteira de transporte permite maior flexibilidade e otimização do desempenho. Isso possibilita adequar o sistema a diferentes tipos de objetos ou cenários de operação, melhorando a eficiência e a precisão.
 
 - **Sensor de Temperatura**:
+  Adicionar o sensor de temperatura para identificação de incêndios afim de interromper as atividades da linha de produção
+
+- **Buzzer**:
+  Emitir avisos sonores de operação do braço robótico, como também alerta de incêndio
+
+- **Motor DC**:
+  Inserir um motor para controle de uma esteira, de modo a levar os objetos de forma autônoma até o local de identificação das mercadorias 
+  
   

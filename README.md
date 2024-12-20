@@ -101,3 +101,6 @@ A implementação de novas funcionalidades pode expandir as capacidades e a efic
 
 - **Ajuste de Velocidade**:
   Implementar a capacidade de ajustar a velocidade do braço robótico ou da esteira de transporte permite maior flexibilidade e otimização do desempenho. Isso possibilita adequar o sistema a diferentes tipos de objetos ou cenários de operação, melhorando a eficiência e a precisão.
+
+- **Sensor de Temperatura**:
+  

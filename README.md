@@ -85,10 +85,12 @@ Para esse propósito, foi utilizada uma interrupção para detectar o evento da 
 
 
 # Testes e Depuração 
-(Adicione este tópico se for útil descrever como testar o sistema e solucionar possíveis problemas.)  
+## **Vídeo Demonstrativo**  
 
-- **Testes Básicos:** Verifique os sinais e conexões.  
-- **Mensagens de Erro:** Identifique e solucione problemas comuns.  
+
+https://github.com/user-attachments/assets/ed80046e-e39a-4f70-a09a-9c54a8750d74
+
+
 
 # Futuras Melhorias *(Opcional)*  
 

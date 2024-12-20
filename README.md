@@ -86,18 +86,19 @@ O princípio de funcionamento do braço robótico é semelhante ao de uma linha 
 
 O sensor ultrassônico é um dispositivo que utiliza ondas sonoras de alta frequência, inaudíveis para o ouvido humano, para medir distâncias. Seu funcionamento baseia-se no princípio de emissão e recepção de ondas sonoras:  
 
-1. **Emissão do Sinal**: O sensor emite um pulso ultrassônico na direção do objeto.  
-2. **Reflexão do Sinal**: Quando o pulso atinge o objeto, ele é refletido de volta em forma de eco.  
-3. **Recepção do Sinal**: O sensor detecta o eco refletido.  
-4. **Cálculo da Distância**: A distância do objeto é determinada medindo o tempo que o pulso leva para ir e voltar, utilizando a fórmula:  
+1. *Emissão do Sinal*: O sensor emite um pulso ultrassônico na direção do objeto.  
+2. *Reflexão do Sinal*: Quando o pulso atinge o objeto, ele é refletido de volta em forma de eco.  
+3. *Recepção do Sinal*: O sensor detecta o eco refletido.  
+4. *Cálculo da Distância*: A distância do objeto é determinada medindo o tempo que o pulso leva para ir e voltar, utilizando a fórmula:  
 
    $$ \text{Distância} = \frac{\text{Velocidade do Som} \times \text{Tempo}}{2}$$ 
 
 A divisão por 2 ocorre porque o tempo medido inclui o trajeto de ida e volta do sinal.  
 
 
-Para esse propósito, foi utilizada uma interrupção para detectar o evento da borda de subida do pino *Echo*, iniciando a contagem de tempo. A contagem prossegue até a detecção da borda de descida do mesmo pino. Com o tempo medido e a velocidade do som conhecida, é possível calcular a distância do objeto.
+Para esse propósito, foi utilizada uma interrupção para detectar o evento da borda de subida do pino Echo, iniciando a contagem de tempo. A contagem prossegue até a detecção da borda de descida do mesmo pino. Com o tempo medido e a velocidade do som conhecida, é possível calcular a distância do objeto.
 
+Para isso foi utilizado o seguinte Código,disponivel em [Codigo Sensor Distancia](https://controllerstech.com/hcsr04-ultrasonic-sensor-and-stm32/)
 
 
 # Testes e Depuração 

@@ -98,7 +98,15 @@ A divisão por 2 ocorre porque o tempo medido inclui o trajeto de ida e volta do
 
 Para esse propósito, foi utilizada uma interrupção para detectar o evento da borda de subida do pino Echo, iniciando a contagem de tempo. A contagem prossegue até a detecção da borda de descida do mesmo pino. Com o tempo medido e a velocidade do som conhecida, é possível calcular a distância do objeto.
 
-Para isso foi utilizado o seguinte Código,disponivel em [Codigo Sensor Distancia](https://controllerstech.com/hcsr04-ultrasonic-sensor-and-stm32/)
+Para isso foi utilizado o seguinte Código, disponível em: [Codigo Sensor Distancia](https://controllerstech.com/hcsr04-ultrasonic-sensor-and-stm32/)
+
+Se a distância do objeto for menor que o valor configurado no parâmetro de distância, o evento é acionado e a ação do braço robótico é disparada.
+
+## Display LCD
+
+No projeto, o display LCD foi configurado para exibir informações recebidas continuamente do microcontrolador, que coleta dados do sensor de distância. Este sensor, utilizado para detectar a presença de objetos na linha de produção, fornece a distância do item detectado. Quando um objeto é identificado pelo sensor, a mensagem "Objeto Encontrado" é exibida no LCD e permanece visível até que a operação da garra seja concluída. Após a finalização da operação, o sistema aguarda a detecção de um novo objeto, atualizando a tela conforme necessário.
+
+Para a intregração do I2C com o display LCD foi utilizado commo base o seguinte código, disponível em: [Bibloteca Para o LCD com I2C](https://controllerstech.com/i2c-lcd-in-stm32/)
 
 
 # Testes e Depuração 

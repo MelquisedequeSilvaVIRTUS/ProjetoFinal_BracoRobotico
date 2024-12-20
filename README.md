@@ -58,6 +58,10 @@ Segue abaixo as Configurações
 
 ![PINAGENS](IMG/Pinagens_ProjetoFinal_BracoRobotico.jpg)
 
+## **Montagem**
+![Montagem1](IMG/Funcionamento1_ProjetoFinal_BracoRobotico.jpg)
+![Montagem2](IMG/Funcionamento2_ProjetoFinal_BracoRobotico.jpg)
+
 # Como  Funciona?  
 
 O princípio de funcionamento do braço robótico é semelhante ao de uma linha de distribuição. Um sensor de distância detecta a presença de um objeto a uma determinada distância, que pode ser configurada. A partir desse evento, o braço robótico é acionado, movimentando o produto para o local previamente definido.

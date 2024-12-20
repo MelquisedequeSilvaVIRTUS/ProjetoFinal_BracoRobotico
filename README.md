@@ -56,7 +56,7 @@ Braço Robótico em Linha de Produção
 
 Segue abaixo as Configurações
 
-![Pinagem.png](:/f87c230044134fdeaf097f4bbfdcf2dc)
+![IMG/Pinagens_ProjetoFinal_BracoRobotico.jpg](:/f87c230044134fdeaf097f4bbfdcf2dc)
 
 # Como  Funciona?  
 
